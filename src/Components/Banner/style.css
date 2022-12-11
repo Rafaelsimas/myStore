@@ -1,0 +1,115 @@
+.container{
+    height: calc(100vh - 93px);
+    width: 80%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.9rem;
+}
+
+.container .box-text, .box-image{
+    
+    width: 50%;
+}
+
+h2 {
+    margin-top: 25px;
+    font-size: 3rem;
+    margin-bottom: 25px;
+}
+
+p {
+    font-size: 1.9rem;
+    margin-bottom: 25px;
+}
+
+.btn-home{
+    background-color: var(--bg-menu-color);
+    width: 50%;
+    padding: 1.2rem;
+    border: none;
+   font-weight: bold;
+   transition: 0.3s ease-in-out;
+}
+
+.btn-home:hover{
+    background-color: var(--btn-hover-color);
+}
+
+.gost-color {
+    background-color: var( --bg-menu-color);
+    height: 524px;
+    width: 32%;
+    position: absolute;
+    margin-left: 10rem;
+    margin-top: 5rem;
+}
+
+.box-image img{
+    position: relative;
+    margin-top: 110px;
+    margin-left: 8.0rem;
+    width: 80%;
+    height: 480px;
+    object-fit: cover;
+}
+
+@media(max-width:700px){
+    .container{
+      margin-top: 110px;
+        width: 100%;
+        margin-inline: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1.9rem;
+        flex-direction: column;
+        text-align: center;
+    }
+    .container .box-text, .box-image{
+    
+        width: 100%;
+    }
+    h2 {
+        margin-top: 25px;
+        font-size: 3rem;
+        margin-bottom: 25px;
+    }
+    
+    p {
+        font-size: 1.9rem;
+        margin-bottom: 25px;
+    }
+    .btn-home{
+        background-color: var(--bg-menu-color);
+        width: 50%;
+        padding: 1.2rem;
+        border: none;
+       font-weight: bold;
+       transition: 0.3s ease-in-out;
+    }
+    
+    .btn-home:hover{
+        background-color: var(--btn-hover-color);
+    }
+    
+    .gost-color {
+        background-color: var( --bg-menu-color);
+        height: 526px;
+        width: 89%;
+        position: absolute;
+        margin-left: 3rem;
+        margin-top: 5rem;
+    }
+    
+    .box-image img{
+        position: relative;
+        margin-top: 110px;
+        margin-left: 0.1rem;
+        width: 100%;
+        height: 480px;
+        object-fit: cover;
+    }
+    
+}

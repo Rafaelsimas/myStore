@@ -1,0 +1,25 @@
+#topo{
+    background: var(--bg-menu-color);
+    height: 93px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#caixa{
+    height: 93px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#caixa ul{
+    display: flex;
+}
+#caixa ul li{
+    margin-left: 1.5rem;
+}
+#caixa ul li a{
+    color: black;
+}
